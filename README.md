@@ -33,6 +33,6 @@ The setup() and loop() functions are very small and the project not necessarily 
    * If the limitations of the Arduino environment are not present, the code can be simplified for the sake of more readability. In particular
       * The template metaprogramming can be replaced by constexpr struct.
       * The ternary operators can be replaced by if-statements.
-   * The sine values can be hard-corded in vector-like construct, e.g. a C vector or an std::array which can be made constexpr and moved to seperate header file.
+   * The sine values can be hard-coded in vector-like construct, e.g. a C vector or an std::array which can be made constexpr and moved to separate header file.
    
    
