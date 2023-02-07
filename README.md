@@ -8,7 +8,7 @@ The program has been run on a Seeeduino Xiao board, see here: https://wiki.seeed
    * It allows for PWM output as well as 10-bit DAC output.
    
 As development framework Visual Studio Code with the PlatformIO extension has been used.
-The setup() and loop() functions are very small and the project not necessarily stcks on the Arduino framework. The C++ stuff outside the setup() and loop() functions can be used in other C++ frameworks, e.g. for desktop development in Microsoft Visual Studio.
+The setup() and loop() functions are very small and the project not necessarily sticks on the Arduino framework. The C++ stuff outside the setup() and loop() functions can be used in other C++ frameworks, e.g. for desktop development in Microsoft Visual Studio.
 
 ## 2. Features
 
@@ -30,7 +30,7 @@ The setup() and loop() functions are very small and the project not necessarily 
    
 ### Alternative Implementations
 
-   * If the limitations of the Arduino environment are not present, the code can be simplified for the sake of more readibeility. In particular
+   * If the limitations of the Arduino environment are not present, the code can be simplified for the sake of more readability. In particular
       * The template metaprogramming can be replaced by constexpr struct.
       * The ternary operators can be replaced by if-statements.
    * The sine values can be hard-corded in vector-like construct, e.g. a C vector or an std::array which can be made constexpr and moved to seperate header file.
